@@ -1,6 +1,6 @@
-# Be.Rich API
+# be.tech API boilerplate
 
-Be.Rich backend APIs for mobile and web clients. It uses Node.js with TypeScript with DDD as architectural approach.
+Be.tech backend APIs for mobile and web clients. It uses Node.js with TypeScript with DDD as architectural approach.
 
 - Our main web framework is `Nestjs` and various dependencies from the Nestjs ecosystem.
 - To store data we use the `PostgreSQL` database and Prisma as ORM.
@@ -104,8 +104,6 @@ These environment variables are required to start the container in the natural e
 | Name                      | Description                                                                     |
 |---------------------------|---------------------------------------------------------------------------------|
 | WEB_PORT                  | Http application port                                                           |
-| JWT_SECRET                | Secret passphrase to encrypt JWT tokens. Could be any random string             |
-| JWT_EXPIRES_IN            | Expire time for JWT (seconds)                                                   |
 | DATABASE_URL              | Database connection url in format: postgresql://host/db                         |
 | REDIS_HOST                | IP or url for connection to Redis                                               |
 | REDIS_PORT                | TCP port for connection to Redis                                                |
