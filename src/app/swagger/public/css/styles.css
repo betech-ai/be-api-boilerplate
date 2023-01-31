@@ -1,0 +1,53 @@
+.topbar {
+    display: none;
+}
+
+.logo-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 32px;
+}
+
+.api-keys {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.key-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.key-wrapper label {
+    font-size: 13px;
+    color: rgb(2, 2, 2);
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.custom-topbar {
+    background-color: #FDF9F1;
+}
+
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.api-keys input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(2, 2, 2);
+    margin-right: 10px;
+    outline: none;
+}
+
+.models {
+    display: none!important;
+}
