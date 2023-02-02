@@ -18,8 +18,7 @@ export class GoogleProvider {
     try {
       this.logger.log('Google user sign in validation', JSON.stringify({ idToken, os }))
 
-      const client = this[`${os}Client`]
-      const ticket: LoginTicket = await client.verifyIdToken({
+      const ticket: LoginTicket = await this.client.verifyIdToken({
         idToken,
       })
 
