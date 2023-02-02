@@ -33,6 +33,7 @@
     "crud:generate": "node ./node_modules/crud-generator/bin/cli"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.14",
     "@nestjs/common": "^9.1.2",
     "@nestjs/core": "^9.1.2",
     "@nestjs/jwt": "^9.0.0",
@@ -44,21 +45,24 @@
     "@types/jsdom": "^20.0.0",
     "@types/swagger-ui-express": "^4.1.3",
     "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.0",
+    "class-validator": "^0.13.2",
     "crud-generator": "github:betech-ai/be-cli#main",
     "dayjs": "^1.11.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "fast-safe-stringify": "^2.1.1",
+    "google-auth-library": "^8.7.0",
     "helmet": "^6.0.0",
     "ioredis": "^5.2.3",
     "jsdom": "^21.1.0",
+    "passport": "^0.6.0",
     "prisma-dbml-generator": "^0.9.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.5.6",
     "swagger-ui-express": "^4.5.0",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.1.3",
