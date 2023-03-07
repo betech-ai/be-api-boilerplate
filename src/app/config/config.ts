@@ -26,4 +26,11 @@ export class Config extends AbstractConfig {
     url: this.getString('DATABASE_URL'),
   };
 
+  public auth = {
+    jwt: {
+      secret:    this.getString('JWT_SECRET'),
+      expiresIn: this.getString('JWT_EXPIRES_IN'),
+    },
+  };
+
 }
